@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Login to Campus Zone"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="#F50057"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/username"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:hint="Student Roll No" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/password"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:hint="Pasword" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnSubmitlogin"
+        android:background="#8270ff"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="35dp" />
+
+
+    <!-- <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="signup"
+        android:text="Sign Up Now"
+        android:textColor="#ff0000"
+        android:textSize="25sp"
+        android:layout_alignTop="@+id/btnSubmitlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp" /> -->
+
+    <TextView
+         android:id="@+id/textView3"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:textSize="15sp"
+         android:layout_alignTop="@+id/btnSubmitlogin"
+         android:layout_centerHorizontal="true"
+         android:text="Note: This is open for all the students,
+         for any discrepencies kindly share ur feedback
+         For admin
+         Username: csehod Password: csehod
+         For Student
+         Username:15241A05A2 Password:stu"
+         android:layout_marginTop="77dp"  />
+
+
+</RelativeLayout>
